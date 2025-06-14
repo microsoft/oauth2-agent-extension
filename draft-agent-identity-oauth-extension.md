@@ -9,7 +9,7 @@
 
 *Version 0.1 – **DRAFT** (2025‑06‑13)*  
 *Target venue: IETF OAuth Working Group*  
-*Author: Bruce Brandon Werner (Microsoft) — crowd‑edited with community input*
+*Author: Brandon Werner (Microsoft) — crowd‑edited with community input*
 
 ---
 
