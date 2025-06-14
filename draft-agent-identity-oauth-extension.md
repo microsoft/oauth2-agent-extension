@@ -70,9 +70,9 @@ Traditional OAuth 2.0 / OpenID Connect flows treat an “application” as the
 This conflation prevents:
 
 * Unique, verifiable **agent identities**  
-* Fine‑grained, agent‑specific scopes  
+* Fine-grained, agent-specific scopes  
 * Lifecycle controls and targeted revocation  
-* Tamper‑proof audit linking every request to both user **and** agent
+* Tamper-proof audit linking every request to both user **and** agent
 
 Existing drafts tackle parts of the problem but either create new grant types for every flow or leave lifecycle governance undefined.  
 This document synthesizes the most practical elements into a small, interoperable extension.
@@ -120,14 +120,13 @@ This document synthesizes the most practical elements into a small, interoperabl
     "scope": "calendar.add calendar.view",
     "act": { "sub": "agent-x-123" }
   }
-```
-
+  ```
 * **RS** logs & enforces based on both identities.  
 * **Lifecycle**: agent identities provisioned via static admin, dynamic registration, or federated trust; revocation handled via token revocation + credential invalidation.
 
 ---
 
-## 5  Protocol Details
+## 5  Protocol Details
 
 ### 5.1  Authorization Request Extension
 
